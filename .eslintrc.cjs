@@ -10,9 +10,10 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'simple-import-sort'],
   rules: {
-    'react-refresh/only-export-components': [
+    'simple-import-sort/imports': 'error',
+    'react-refresh/only-export-component': [
       'warn',
       { allowConstantExport: true },
     ],
