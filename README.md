@@ -18,18 +18,18 @@
 
 1. Tailwind official doc about installation
 ```
-   [https://tailwindcss.com/docs/installation]
+   [https://tailwindcss.com/docs/guides/vite]
 ```
 
 
 2. Run following commands
   ```
-   1. npm install -D tailwindcss
-   2. npx tailwindcss init
+   1. npm install -D tailwindcss postcss autoprefixer
+   2.npx tailwindcss init -p
   ```
 3. Add file instructions to tailwind config file in contents property
    ```
-   ["./src/**/*.{html,js,jsx,ts,tsx}"]
+   ["./src/**/*.{html,js,jsx,ts,tsx}",index.html]
    ```
 
 4. Add following tailwind directives to index.css
