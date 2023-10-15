@@ -4,6 +4,17 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui"), require("@tailwindcss/line-clamp")],
+   daisyui: {
+    themes: ["dark"],
+  },
 }
+// module.exports = {
+// content: ["./index.html", "./src/**/*.{html,js,jsx,ts,tsx}"],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [require("daisyui")],
+// }
+
 

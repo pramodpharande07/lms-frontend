@@ -39,6 +39,11 @@
   @tailwind utilities;
 ```
 
+5. Add following properties to your taliwind config in plugins
+```
+   [require("daisyui"), require("@tailwindcss/line-clamp")]
+```
+
 ## Adding Plugins and Dependencies
 
 1. Install following dependencies

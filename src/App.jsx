@@ -1,21 +1,19 @@
-import './App.css'
+import "./App.css";
 
-import { Routes } from 'react-router-dom';
-import Footer from './components/Footer';
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Homelayout from "./Layouts/Homelayout";
+import HomePage from "./Pages/HomePage";
 
 function App() {
-  
   return (
-   <>
-   {/* <Routes> */}
-     {/* <Route path="/" element={<Home />}></Route> */}
-   {/* </Routes> */}
-  
-   {/* <Footer> */}
-
-   </Footer>
-   </>
-  )
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+       
+      </Routes>
+    </>
+  );
 }
 
 export default App;
