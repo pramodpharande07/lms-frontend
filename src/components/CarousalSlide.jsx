@@ -1,7 +1,7 @@
 function CarousalSlide({image, title, description, slideNumber, totalSlides}) {
   return (
    
-        
+        //this logic is for about us section
         <div id={`slide${slideNumber}`} className="carousel-item relative w-full">
             <div className="flex flex-col items-center justify-center gap-4 px-[15%]">
               <img src={image} className="w-40 rounded-[100%] border border-2 border-gray-400"/>

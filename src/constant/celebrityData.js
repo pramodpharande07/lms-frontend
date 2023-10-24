@@ -8,7 +8,7 @@ import nambi from "../assets/Images/nambi.jpg"
 export const celebrities = [
   {
    title: "Abdul Kalam",
-   description: "In this world, fear has no place.",
+   description: "Don’t read success stories, you will only get a message. Read failure stories, you will get some ideas to get success.",
    image: apj,
    slideNumber: 1
  },
